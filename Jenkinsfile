@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building..'
+                echo 'Code Build By Pintu Patra.'
             }
         }
         stage('Test') {
