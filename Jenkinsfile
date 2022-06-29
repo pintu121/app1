@@ -4,7 +4,8 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Code Build By Pintu Patra.'
+	    bat "git clone https://github.com/pintu121/app1.git"
+               // echo 'Code Build By Pintu Patra.'
             }
         }
         stage('Test') {
